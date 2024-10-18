@@ -9,10 +9,6 @@ body {
   font-family: "Urbanist", sans-serif;
 }
 
-/* html {
-  overflow: hidden;
-} */
-
 body > #root {
   height: 100vh;
 }

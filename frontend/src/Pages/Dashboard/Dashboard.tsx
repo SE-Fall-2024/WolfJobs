@@ -46,10 +46,10 @@ const Dashboard = () => {
 
   useEffect(() => {
     const token: string = localStorage.getItem("token")!;
-    if (!!!token) {
+    if (!token) {
       naviagte("/login");
     }
-    if (!!token) {
+    if (token) {
       const tokenInfo = token.split(".");
       const userInfo = JSON.parse(atob(tokenInfo[1]));
 

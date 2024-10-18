@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 const NavBarItem = (props: { link: string; text: string }) => {
-  let { link, text } = props;
+  const { link, text } = props;
   return (
     <>
       <li>

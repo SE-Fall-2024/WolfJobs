@@ -38,10 +38,6 @@ const applicationSchema = new mongoose.Schema({
     type: String,
     default: "",
   },
-  phonenumber: {
-    type: String,
-    default: "",
-  },
   hours: {
     type: String,
     default: "",
@@ -57,14 +53,6 @@ const applicationSchema = new mongoose.Schema({
   status: {
     type: String,
     default: "applied",
-  },
-  jobname: {
-    type: String,
-    required: true,
-  },
-  jobid: {
-    type: mongoose.Schema.Types.ObjectId,
-    ref: "Job",
   },
   answer1: {
     type: String,

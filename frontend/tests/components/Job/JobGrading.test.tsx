@@ -1,5 +1,4 @@
-import { render, screen } from "@testing-library/react";
-import React from "react";
+import { render } from "@testing-library/react";
 import JobGrading from "../../../src/components/Job/JobGrading";
 import { MemoryRouter } from "react-router";
 
@@ -18,7 +17,5 @@ describe("JobGrading", () => {
         />
       </MemoryRouter>
     );
-    // const headline = screen.getByText(/Hello/i);
-    // expect(headline).toBeInTheDocument();
   });
 });

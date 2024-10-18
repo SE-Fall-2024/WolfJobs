@@ -58,7 +58,7 @@ const JobPreview = () => {
       }
       toast.success("Job created");
       console.log(details);
-      navigate('/job-preview', { state: { details, questions } });
+      navigate("/job-preview", { state: { details, questions } });
       navigate("/dashboard");
     });
   };
@@ -141,9 +141,7 @@ const JobPreview = () => {
             <div className="text-lg border-b border-gray-300 mb-2 font-bold">
               Required Skills
             </div>
-            <div className="text-[#686868] mx-2">
-              {details.requiredSkills}
-            </div>
+            <div className="text-[#686868] mx-2">{details.requiredSkills}</div>
 
             <div className="text-lg border-b border-gray-300 mb-2 font-bold">
               Questions

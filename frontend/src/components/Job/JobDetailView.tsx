@@ -5,9 +5,8 @@ import NoJobSelected from "./NoJobSelected";
 import JobDetail from "./JobDetails";
 
 const JobDetailView = () => {
-  // eslint-disable-line
   /* tslint:disable-next-line */
-  const [searchParams] = useSearchParams(); // eslint-disable-line
+  const [searchParams] = useSearchParams();
   const [jobData, setJobData] = useState<Job | null>();
 
   //   let job: Job | undefined | null = null;
@@ -15,7 +14,7 @@ const JobDetailView = () => {
 
   useEffect(() => {
     const jobId = searchParams.get("jobId");
-    if (!!jobId) {
+    if (jobId) {
       setJobData(jobsList.find((item) => item._id === jobId));
     } else {
       setJobData(null);

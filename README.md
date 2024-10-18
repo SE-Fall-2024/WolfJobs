@@ -19,35 +19,22 @@
 <!-- ![Static Badge](https://img.shields.io/badge/any_text-i_like-blue) -->
 
 # Tech Stack:
-
-<!-- - ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white) -->
-
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
-![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
+<!-- Really Good Reference: https://github.com/Ileriayo/markdown-badges -->
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-[![TailwindCSS](https://img.shields.io/badge/Tailwind%20CSS-%2338B2AC.svg?logo=tailwind-css&logoColor=white)](#)
-[![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=fff)](#)
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+![RestAPI](https://img.shields.io/badge/RestAPI-005571?style=for-the-badge&logo=restapi)
 
 # What's New:
 
- - **New Screens Added!**
- - Branding, Colours and Typography
- - Components & States
- - Mutliple UI Screens _flows_ for Student & Manager Roles
- - [https://www.figma.com/file/sqt0gh5H7bZEkryKZ9jFnK/WolfJobs](https://www.figma.com/file/sqt0gh5H7bZEkryKZ9jFnK/WolfJobs)
-
- - Seamless Resume Upload and Parsing: We've made it a breeze for applicants to submit their resumes for each job posting, while employers can effortlessly access and view the stored PDFs in MongoDB.
- - Precision Application Matching: Say goodbye to the uncertainty of job applications! With our enhanced system, applicants now have the power to identify which jobs align perfectly with their skills and qualifications. WolfJobs will analyze your profile and inform you if you're a strong fit for a position.
- - Revamped Job Sorting and Search:  Our revamped job sorting and search features allows you to easily organize opportunities by pay, city, and employment type. Plus, you can perform specific job searches to find the perfect match.
-- Stay Informed with the Notifications Tab: Introduced our brand-new Notifications tab to WolfJobs. Now, you can receive timely updates on the status of your applications, ensuring you're always in the know about your job prospects. 
 
 
 # Presentation Video
 
-[![Watch the video](https://github.com/deepr41/WolfJobs/blob/master/GIFs/Video%20Thumbnail.png)](http://www.youtube.com/watch?v=kMgLUrDiYEw)
-
-# About Us
+# About WolfJobs
 
 Eager to dive into a side hustle or seize a full-time job opportunity? Look no further than WolfJobs. Our platform is the ultimate connector between recruiters in need of talent for both short-term and full-time roles and candidates seeking the freedom to choose. Dive in, earn your share, and opt out whenever you want – or stay on for a longer journey!
 
@@ -103,6 +90,7 @@ At WolfJobs, it’s not just about work – it's about joining a vibrant pack wh
 
 
 # Installation Instructions for Project Setup
+<!-- Need to update this!! Especially if we dockerize -->
 
 **Prerequisites:**
 

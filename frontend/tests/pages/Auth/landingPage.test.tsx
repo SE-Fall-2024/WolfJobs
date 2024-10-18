@@ -1,5 +1,4 @@
-import { render, screen } from "@testing-library/react";
-import React from "react";
+import { render } from "@testing-library/react";
 import LandingPage from "../../../src/Pages/Auth/landingPage";
 import { MemoryRouter } from "react-router";
 
@@ -10,7 +9,5 @@ describe("LandingPage", () => {
         <LandingPage />
       </MemoryRouter>
     );
-    // const headline = screen.getByText(/Hello/i);
-    // expect(headline).toBeInTheDocument();
   });
 });

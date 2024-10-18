@@ -69,13 +69,13 @@ function ResumeViewer() {
             <Page pageNumber={pageNumber} />
           </Document>
         </div>
-        )}
+      )}
       <div className="flex items-center justify-between mt-4">
         <button
           onClick={goToPreviousPage}
           className="px-4 py-2 font-bold text-white bg-red-500 rounded-l hover:bg-red-700"
           disabled={pageNumber <= 1}
-          >
+        >
           Previous
         </button>
         <p className="mx-2">
@@ -85,7 +85,7 @@ function ResumeViewer() {
           onClick={goToNextPage}
           className="px-4 py-2 font-bold text-white bg-red-500 rounded-r hover:bg-red-700"
           disabled={pageNumber >= (numPages || 0)}
-          >
+        >
           Next
         </button>
       </div>

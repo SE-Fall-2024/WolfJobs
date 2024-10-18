@@ -12,7 +12,7 @@ const Resume: React.FC = () => {
   const resumeName = useUserStore((state) => state.resume);
   const userId = useUserStore((state) => state.id);
   const updateResume = useUserStore((state) => state.updateResume);
-  const updateResumeId = useUserStore((state) => state.updateResumeId) 
+  const updateResumeId = useUserStore((state) => state.updateResumeId);
 
   const handleSubmit = async () => {
     if (file) {
@@ -33,7 +33,9 @@ const Resume: React.FC = () => {
 
         if (response.status === 201) {
           console.log("Resume uploaded successfully");
-          toast.success("Resume Uploaded Successfully. Sign out and sign back in to see changes!");
+          toast.success(
+            "Resume Uploaded Successfully. Sign out and sign back in to see changes!"
+          );
         }
       } catch (error) {
         console.error("Error uploading the resume", error);

@@ -7,7 +7,7 @@ import { useUserStore } from "../../store/UserStore";
 const JobListTile = (props: any) => {
   // const { data, action }: { data: Job; action: string | undefined } = props;
   const { data }: { data: Job } = props;
-  let action = "view-more";
+  const action = "view-more";
 
   const getMatchStatus = (job: Job) => {
     let matchStatus = {

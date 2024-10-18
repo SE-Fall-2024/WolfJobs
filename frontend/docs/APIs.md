@@ -91,6 +91,7 @@ res.json(500, {
 ```
 
 Response 3:
+
 ```sh
 res.json(400, {
       message: "Bad Request",
@@ -125,6 +126,7 @@ res.json(500, {
 ```
 
 ## Close Job
+
 Method: `POST`
 
 `/api/v1/users/closejob`
@@ -165,7 +167,7 @@ res.json(400, {
       });
 ```
 
-Response 2: 
+Response 2:
 
 ```sh
 res.json(200, {

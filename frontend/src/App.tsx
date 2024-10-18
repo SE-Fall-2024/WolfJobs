@@ -1,4 +1,3 @@
-import "./App.css";
 import "react-toastify/dist/ReactToastify.css";
 
 import { ToastContainer } from "react-toastify";
@@ -80,28 +79,7 @@ const App = () => {
               </ProtectedRoute>
             }
           />
-          <Route
-            path="/resumeviewer/:applicantId"
-            element={
-                <ResumeViewer />
-            }
-          />
-          <Route
-            path="/resume"
-            element={
-              <ProtectedRoute>
-                <Resume />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/notifications"
-            element={
-              <ProtectedRoute>
-                <Notifications />
-              </ProtectedRoute>
-            }
-          />
+          <Route path="/resumeviewer/:applicantId" element={<ResumeViewer />} />
           <Route
             path="/notifications"
             element={

@@ -56,12 +56,12 @@ const userSchema = new mongoose.Schema(
     },
     resume: {
       type: String,
-      default: ""
+      default: "",
     },
     resumeId: {
       type: mongoose.Schema.Types.ObjectId,
       required: false,
-      ref: 'Resume',
+      ref: "Resume",
     },
   },
   {

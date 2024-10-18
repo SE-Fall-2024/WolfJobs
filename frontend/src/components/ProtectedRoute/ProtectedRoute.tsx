@@ -5,9 +5,9 @@ const ProtectedRoute = ({ children }: any) => {
   // get user information
   const token: any = localStorage.getItem("token");
 
-  let location = useLocation();
+  const location = useLocation();
 
-  if (!!!token) {
+  if (!token) {
     return <Navigate to="/login" state={{ from: location }} replace />;
   }
   return children;

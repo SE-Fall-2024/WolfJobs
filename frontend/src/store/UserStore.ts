@@ -100,9 +100,9 @@ export const useUserStore = create<UserState & UserAction>()((set) => ({
     set(() => ({ affiliation: affiliation }));
   },
   updateResume: (resume: string) => {
-    set(() => ({resume: resume}))
+    set(() => ({ resume: resume }));
   },
   updateResumeId: (resumeId: string) => {
-    set(() => ({resumeId: resumeId}))
-  }
+    set(() => ({ resumeId: resumeId }));
+  },
 }));
